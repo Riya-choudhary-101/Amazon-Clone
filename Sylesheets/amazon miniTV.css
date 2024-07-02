@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width:100%;
+    height:70px;
+    background-color:#1a2224;
+    display:flex;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+header .imgbox{
+    width:250px;
+    height:70px;
+    background-color:#1a2224;
+}
+.imgbox svg{
+    width:94%;
+    height:70px;
+    margin-left:20px;
+}
+
+header .wholediv{
+    display:flex;
+    width:800px;
+    height:70px;
+    background-color:#1a2224;
+
+}
+.wholediv p{
+    padding-top:23px;
+}
+.wholediv .p1{
+    padding-left:1em;
+    color:rgb(219, 4, 252);
+}
+.wholediv a{
+    text-decoration:none;
+    color:white;
+    padding-right:30px;
+    /* padding-top:10em; */
+    /* padding-top:40px; */
+    font-size:19px;
+    font-weight:500;
+    font-family:arial,'sens-serif';
+}
+a:hover{
+    color:aquamarine;
+}
+
+header .nextdiv{
+    width:250px;
+    height:70px;
+    background-color:#1a2224;
+}
+.nextdiv svg{
+    width:30px;
+    height:30px;
+    position:relative;
+    bottom:5px;
+    left:40px;
+}
+.nextdiv i{
+    position:relative;
+    top:10px;
+    left:70px;
+    color:white;
+}
+.nextdiv a{
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:25px;
+    padding-left:50px;
+}
+.mid{
+    width:100%;
+    height:270px;
+    background-color:orchid;
+}
+.mid img{
+    width:100%;
+    height:270px;
+}
+.channel{
+    width:100%;
+    height:250px;
+    background-color:black;
+}
+
+.channel p{
+    font-size:23px;
+    font-family:arial,'sens-serif';
+    font-weight:600;
+    color:white;
+    position:relative;
+    top:20px;
+    left:60px;
+}
+.channel .chan{
+    width:100%;
+    height:200px;
+    background-color:black;
+    position:relative;
+    top:20px;
+    display:flex;
+}
+.chan img{
+    width:330px;
+    height:170px;
+    /* padding-left:60px; */
+    padding-right:10px;
+    padding-top:10px;
+    transition:all 0.3s ease;
+}
+.chan .img1{
+    padding-left:40px;
+}
+.chan .img4{
+    padding-right:10px;
+}
+.chan img:hover{
+    width:360px;
+    height:190px;
+}
+.one{
+    position:relative;
+    bottom:20px;
+}
